@@ -1,0 +1,23 @@
+{
+    "name": "larissa/rest-api-for-webstories",
+    "description": "Return registered webstories through REST API.",
+    "type": "project",
+    "require-dev": {
+        "humanmade/psalm-plugin-wordpress": "^2.1",
+        "paulthewalton/acf-stubs": "^5.8"
+    },
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "REST_WEBSTORIES\\Includes\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Caio Willian Moreira Santos",
+            "email": "cwillian40@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
